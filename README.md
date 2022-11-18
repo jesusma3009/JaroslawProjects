@@ -5,9 +5,9 @@ This repository contains the work done during the first semester in Jaroslaw in 
 # Contents of the folders
 El repositorio estará dividido por carpetas según el lenguaje de programación utilizado.
 
-##Python
+## Python
 
-###Euler
+### Euler
 In the Euler folder we find some exercises that I have done from the website [project Euler](https://projecteuler.net/)
 
 ### integration-of-Tourism
