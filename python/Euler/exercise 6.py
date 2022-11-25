@@ -1,14 +1,14 @@
-from_number = 2
-to_number = 20
+#   Find the difference between the sum of the squares of
+#   the first one hundred natural numbers and the square of the sum.
+n=101
+f1 = (n*(n-1)/2)*(n*(n-1)/2)
 
-number = []
-def prime_numbers(x):
-    solution = []
-    for i in range(2,x):
-        if (x % i == 0 and x != i):
-            solution.insert(prime_numbers(i))
-        elif x % i == 0:
-            return x
+def f2(a):
+    solution = 0
+    for i in range(1,a):
+        solution += i*i
     return solution
 
-test = prime_numbers(10)
+print(f1)
+print(f2(n))
+print(f1 - f2(n))
