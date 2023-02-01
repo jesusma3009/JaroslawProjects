@@ -34,6 +34,7 @@ def selectionSort(list):
         list[min] = list[j]
         list[j] = temp
     return list
+
 import random
 def generateRandomList():
     list = []
