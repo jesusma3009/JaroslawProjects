@@ -34,7 +34,12 @@ def selectionSort(list):
         list[min] = list[j]
         list[j] = temp
     return list
-
+import random
+def generateRandomList():
+    list = []
+    for i in range(10000):
+        list.append(random.randint(0, 10000))
+    return list
 
 def main():
     #   Example list has 10000 differents values
